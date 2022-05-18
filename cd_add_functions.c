@@ -4,7 +4,7 @@
  * print_cd_1 - Prints error when cd argument in invalid
  *              i.e. cd -asd22
  * @vars: vars parameter to include
- * Return: Always return void and print a messaje as shown below.
+ * Return: Always return void and print a message as shown below.
  */
 void print_cd_1(vars_t *vars)
 {

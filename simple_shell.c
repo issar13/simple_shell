@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * sig_handler - handles ^C signal interupt
+	* sig_handler - handles ^C signal
  * @unused: unused variable (required for signal function prototype)
  *
  * Return: void

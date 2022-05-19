@@ -121,8 +121,7 @@ ssize_t _puts3(char *str)
 {
 	ssize_t i, len;
 
-	for (i = 0; str[i]; i++)
-		;
+	for (i = 0; str[i]; i++);
 
 	len = write(1, str, i);
 	if (len != i)

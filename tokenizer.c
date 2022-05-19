@@ -15,11 +15,13 @@ char **tokenizer(char *buffer, char *delimiter)
 	if (buffer == NULL)
 		return (NULL);
 	tokens = malloc(sizeof(char *) * mcount);
+	
 	if (tokens == NULL)
 	{
 		perror("Fatal Error");
 		return (NULL);
 	}
+	
 	while ((tokens[i] = new_strtok(buffer, delimiter)) != NULL)
 	{
 		i++;

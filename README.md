@@ -12,8 +12,7 @@ intentionally minimalistic, was made in order to practice the basics of C learni
 Standard functions and system calls employed in simple_shell include:
 	 `access, execve, exit, fork, free, fstat, getline, malloc, perror, signal, stat, wait, write.`
 
-## Requirements
-
+## Requirements:wq:
 simple_shell is designed to run in the Ubuntu linux environment and to be compiled using the GNU compiler collection v. `gcc 4.8.4` with flags`-Wall, -Werror, -Wextra, and -pedantic.`
 
 ## Installation

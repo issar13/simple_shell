@@ -12,7 +12,8 @@ char **newenviroment = NULL;
 
 size_t i;
 
-	for (i = 0; env[i] != NULL; i++);
+	for (i = 0; env[i] != NULL; i++)
+		;
 	newenviroment = malloc(sizeof(char *) * (i + 1));
 	if (newenviroment == NULL)
 	{
